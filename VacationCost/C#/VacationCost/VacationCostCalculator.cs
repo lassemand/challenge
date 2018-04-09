@@ -4,16 +4,21 @@ namespace VacationCost
 {
     public class VacationCostCalculator
     {
-        public double DistanceToDestination { get; set; }
+        public VacationCostModel VacationCostModel { get; }
 
-        public decimal CostOfVacation(string transportMethod)
+        public VacationCostCalculator(VacationCostModel vacationCostModel)
         {
-            switch (transportMethod)
+            VacationCostModel = vacationCostModel;
+        }
+
+        public decimal CostOfVacation()
+        {
+            switch (VacationCostModel.TransportMethod)
             {
-                case "Car":
-                    return (decimal) (DistanceToDestination * 1);
-                case "Plane":
-                    return (decimal) (DistanceToDestination * 2);
+                case VacationTransportMethod.Car:
+                    return (decimal) (VacationCostModel.Distance * 1);
+                case VacationTransportMethod.Plane:
+                    return (decimal) (VacationCostModel.Distance * 2);
                 default:
                     throw new ArgumentOutOfRangeException();
             }

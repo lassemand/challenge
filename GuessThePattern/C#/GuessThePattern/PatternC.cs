@@ -39,5 +39,10 @@ namespace GuessThePattern
 }
 
 /* Write your answers and comments below this line
-
+    Pattern: Observer pattern
+    Pros:
+    1. Sharing resources amongst object is an easy task
+    2. Easy to implement loosely coupled designs
+    Cons:
+    1. Can add uneccassary complexity
 */

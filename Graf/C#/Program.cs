@@ -6,7 +6,7 @@ namespace Graf
 	{
 		static void Main(string[] args)
 		{
-			var curr = Customers
+            var curr = Customers
 				.Create("Kim")
 				.Previous("Hans")
 				.Previous("Ole")
@@ -22,5 +22,6 @@ namespace Graf
 			}
 			Console.ReadLine();
 		}
+
 	}
 }
