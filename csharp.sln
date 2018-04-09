@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StolenTests", "StolenTests\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessThePattern", "GuessThePattern\C#\GuessThePattern\GuessThePattern.csproj", "{CEAAF018-34FF-4CB8-886C-D5CFA1E4079E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{6869FF7E-232E-47EA-A6A2-DD8236067851}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,10 +57,6 @@ Global
 		{CEAAF018-34FF-4CB8-886C-D5CFA1E4079E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEAAF018-34FF-4CB8-886C-D5CFA1E4079E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEAAF018-34FF-4CB8-886C-D5CFA1E4079E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6869FF7E-232E-47EA-A6A2-DD8236067851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6869FF7E-232E-47EA-A6A2-DD8236067851}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6869FF7E-232E-47EA-A6A2-DD8236067851}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6869FF7E-232E-47EA-A6A2-DD8236067851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
